@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class smallfact
+class smallfac
 {
     public static void main(String args[])
     {
