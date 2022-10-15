@@ -5,11 +5,11 @@ class pattern
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=65;i<=64+n;i++)
+        for(int i=1;i<=n;i++)
         {
-            for(int j=1;j<=n;j++)
+            for(int j=n;j>=1;j--)
             {
-                System.out.print((char)i+" ");
+                System.out.print(j+" ");
             }
             System.out.println();
         }
