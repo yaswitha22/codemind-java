@@ -5,14 +5,13 @@ class pattern
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=64+n;i>=65;i--)
+        for(int i=65;i<=64+n;i++)
         {
             for(int j=1;j<=n;j++)
             {
                 System.out.print((char)i+" ");
             }
             System.out.println();
-            n-=1;
         }
     }
 }
